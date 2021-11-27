@@ -1,6 +1,6 @@
 monogatari.script ({
 
-¬¬¬¬¬¬¬¬¬¬¬¬¬¬ 'Start_Normas': [
+          'Start_Normas': [
 	    
 	        'show background global at left with fadeIn', 
 	   
