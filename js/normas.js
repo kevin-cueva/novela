@@ -117,7 +117,7 @@ monogatari.script ({
 	       'end',
 	           ], 
 	
-	  'Politicascontables':[
+	  'Crearpoliticascontables':[
 		  
 		   'show background empresarial at left with fadeIn', 
 	   
