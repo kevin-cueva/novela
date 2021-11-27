@@ -97,6 +97,11 @@ monogatari.assets ('scenes', {
 	'actividadeconomica' : 'actividadeconomica.jpg',
 	'global': 'global.jpg',
 	'decisiones': 'decisiones.jpg',
+	'internacional': 'internacional.jpg',
+	'estructura': 'estructura.jpg',
+	'empresarial': 'empresarial.jpg',
+	'acuerdo': 'acuerdo.jpg',
+	'auditoria': 'auditoria.jpg',
 
 });
 
