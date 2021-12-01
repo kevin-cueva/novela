@@ -798,7 +798,7 @@ monogatari.script ({
 	'Actadeconstituciónyregistromercantil2': [
 		't: A contunuación usted deberá colocar el valor de los distintos capitales',
 		't: Tenga en cuenta la normatividad para el calculo de los mismos',
-	        't: Además deberá designar un representante legal'
+	        't: Además deberá designar un representante legal',
 	        'jump cuentabancaria',
         ],
 	
