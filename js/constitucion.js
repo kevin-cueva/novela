@@ -774,12 +774,12 @@ monogatari.script ({
 		't: Señor empresario (Aprendiz),',
 		't: usted deberá constituir una empresa,',
 		't: dándole forma legal con el acta de constitución,',
-		't: Tereis, les dará un modelo de acta de constitución,',
+		't: y el cálculo del capital,',
 		't: para que ustedes lo diligencien y lo presenten',
 		't: ante la cámara de comercio de su ciudad,',
 		't: recuerde que debe constituirla con máximo 6 accionistas,',
-		't: donde cada uno debe aportar dinero o bienes que tengan,', 
-        't: relación con la actividad económica seleccionada,',
+		't: donde cada uno debe aportar dinero o bienes que tengan,',
+                't: relación con la actividad económica seleccionada,',
 		't: por ejemplo, para la heladería, se necesitaría una nevera industrial de alta capacidad.',
 		't: Con este trámite, el funcionario de la cámara de comercio,',
 		't: les debe entregar certificado de existencia y representación legal',
@@ -789,11 +789,19 @@ monogatari.script ({
 		't: en donde harán el depósito del dinero aportado en efectivo',
 		't: por los accionistas de la empresa',
 		't: Tengan en cuenta que deben elegir a un representante legal.',
-		'jump cuentabancaria',	
+		'jump Actadeconstituciónyregistromercantil2',	
 		
 	],	
 	
-
+	
+	
+	'Actadeconstituciónyregistromercantil2': [
+		't: A contunuación usted deberá colocar el valor de los distintos capitales',
+		't: Tenga en cuenta la normatividad para el calculo de los mismos',
+	        't: Además deberá designar un representante legal'
+	        'jump cuentabancaria',
+        ],
+	
 	'cuentabancaria': [
 		
 		't: Estimado empresario, te daré un formato de apertura de la cuenta bancaria',
