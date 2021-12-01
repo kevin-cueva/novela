@@ -7,7 +7,10 @@ monogatari.script ({
 		'show background constitucion at left with fadeIn',
 		
 		'show character t normal',
-		'jump InicioConstitucion',
+
+		//Temporalmente salto directo al calculo de capital
+		'jump Actadeconstituciónyregistromercantil2',
+		//'jump InicioConstitucion',
 
 		//'jump logodelaempresa',
 		//'jump Actividadeconomica',
@@ -796,9 +799,114 @@ monogatari.script ({
 	
 	
 	'Actadeconstituciónyregistromercantil2': [
-		't: A contunuación usted deberá colocar el valor de los distintos capitales',
-		't: Tenga en cuenta la normatividad para el calculo de los mismos',
-	        't: Además deberá designar un representante legal',
+		// 't: A contunuación usted deberá colocar el valor de los distintos capitales',
+		// 't: Tenga en cuenta la normatividad para el calculo de los mismos',
+	    // 't: Además deberá designar un representante legal',
+
+		{'Input': {
+			'Text': 'Ingrese el valor del capital autorizado:',
+			'Type': 'number',
+			'Validation': (input) => {
+				// Check if the input wasn't empty
+				if (input.trim ().length === 0) {
+					return false;
+				}
+				
+				// Transform the input string to an integer number
+				const capAut = parseInt (input);
+				
+				return capAut > 0;
+			},
+			'Save': (input) => {
+				monogatari.storage().capitalAutorizado = parseInt (input);
+			},
+			'Revert': () => {
+				monogatari.storage().capitalAutorizado = 1;
+			},
+			'Warning': 'El capital debe ser mayor a 0.'
+		}},
+
+		't: El capital autorizado es: {{capitalAutorizado}}',
+
+		{'Input': {
+			'Text': 'Ingrese el valor del capital suscrito:',
+			'Type': 'number',
+			'Validation': (input) => {
+				// Check if the input wasn't empty
+				if (input.trim ().length === 0) {
+					return false;
+				}
+				
+				// Transform the input string to an integer number
+				const capSus = parseInt (input);
+				
+				return capSus >= (monogatari.storage().capitalAutorizado/2) && capSus <= monogatari.storage().capitalAutorizado;
+			},
+			'Save': (input) => {
+				monogatari.storage().capitalSuscrito = parseInt (input);
+			},
+			'Revert': () => {
+				monogatari.storage().capitalSuscrito = (monogatari.storage().capitalAutorizado/2);
+			},
+			'Warning': 'El capital suscrito debe ser mayor o igual al 50% del autorizado y menor o igual al 100% del autorizado.'
+		}},
+
+		't: El capital suscrito es: {{capitalSuscrito}}',
+
+
+		{'Input': {
+			'Text': 'Ingrese el valor del capital pagado:',
+			'Type': 'number',
+			'Validation': (input) => {
+				// Check if the input wasn't empty
+				if (input.trim ().length === 0) {
+					return false;
+				}
+				
+				// Transform the input string to an integer number
+				const capPag = parseInt (input);
+				
+				return capPag >= (monogatari.storage().capitalSuscrito/3) && capPag <= monogatari.storage().capitalSuscrito;
+			},
+			'Save': (input) => {
+				monogatari.storage().capitalPagado = parseInt (input);
+			},
+			'Revert': () => {
+				monogatari.storage().capitalPagado = (monogatari.storage().capitalSuscrito/3);
+			},
+			'Warning': 'El capital pagado debe ser mayor o igual a la 3ra parte del suscrito y menor o igual al total del suscrito.'
+		}},
+
+		't: El capital pagado es: {{capitalPagado}}',
+
+		{'Input': {
+			'Text': 'Ingrese el valor de cada acción.',
+			'Type': 'number',
+			'Validation': (input) => {
+				// Check if the input wasn't empty
+				if (input.trim ().length === 0) {
+					return false;
+				}
+				
+				// Transform the input string to an integer number
+				const accion = parseInt (input);
+				
+				return accion <= monogatari.storage().capitalPagado;
+			},
+			'Save': (input) => {
+				monogatari.storage().valorAccion = parseInt (input);
+			},
+			'Revert': () => {
+				monogatari.storage().valorAccion = monogatari.storage().capitalPagado;
+			},
+			'Warning': 'La acción deber ser menor o igual al capital pagado'
+		}},
+
+		't: Valor de la acción es: {{capitalPagado}}',
+
+
+
+
 	        'jump cuentabancaria',
         ],
 	
