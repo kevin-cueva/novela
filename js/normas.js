@@ -67,8 +67,10 @@ monogatari.script ({
 		   'show character t normal at at right', 
 		   
                't: Ya usted posee el conocimiento necesario acerca de las Normas Internacionales de Información Financiera,', 
-               't: el siguiente paso es definir el marco conceptual contable y financiero aplicable a su empresa,',
+               't: el paso a seguir  es definir el marco conceptual contable y financiero aplicable a su empresa,',
                't: de acuerdo a actividad comercial, necesidades de la empresa y la normativa vigente',
+		   
+		    'jump Identificarlaestructuracontable'
 		 
 	       'end',
 	           ],
@@ -87,10 +89,12 @@ monogatari.script ({
 		   'show character t normal  at right', 
 		  
                't: Una vez identificados los marco normativo contenidos en del DUR 2420/2015 específicamente los Grupo 1,2 y 3,',
-               't: el siguiente paso es identificar la estructura contable aplicable a su empresa.',
+               't: el paso a seguir es identificar la estructura contable aplicable a su empresa.',
                't: De acuerdo al proyecto formativo, usted debe tener como referencia el marco normativo',
                't: del grupo 2 normas NIIF para PYMES, por lo cual es necesario Identificar si su empresa cumple con los', 
                't: requisitos para ser catalogadas como pequeña y mediana empresa',
+		  
+		   'jump Crearpoliticascontables'
 		  
 	       'end',
 	           ], 
@@ -113,6 +117,8 @@ monogatari.script ({
                't: Una vez constituida su empresa el siguiente paso es conocer la normativa comercial, contable y',
                't: financiera vigente en Colombia específicamente, todo lo referente a las NIIF', 
                't: su objetivo e identificar el organismo emisor',
+		  
+		  'jump Definirmarcoconceptualaplicable'
 		   
 	       'end',
 	           ], 
@@ -130,7 +136,7 @@ monogatari.script ({
 		   'show character t normal at right', 
 		  
                't: Ya tiene identificada la estructura contable de su  empresa,', 
-	       't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
+	       't: el paso a seguir  es conocer las normas a tener en cuenta para la selección y',
 	       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES', 
 
 	    
