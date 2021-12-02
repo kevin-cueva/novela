@@ -70,7 +70,6 @@ monogatari.script ({
                't: el paso a seguir  es definir el marco conceptual contable y financiero aplicable a su empresa,',
                't: de acuerdo a actividad comercial, necesidades de la empresa y la normativa vigente',
 		   
-		    'jump Identificarlaestructuracontable'
 		 
 	       'end',
 	           ],
@@ -94,7 +93,6 @@ monogatari.script ({
                't: del grupo 2 normas NIIF para PYMES, por lo cual es necesario Identificar si su empresa cumple con los', 
                't: requisitos para ser catalogadas como pequeña y mediana empresa',
 		  
-		   'jump Crearpoliticascontables'
 		  
 	       'end',
 	           ], 
@@ -114,20 +112,33 @@ monogatari.script ({
 
 	      'show background decisiones at left with fadeIn',
 		  
-               't: Una vez constituida su empresa el siguiente paso es conocer la normativa comercial, contable y',
+               't: Una vez constituida su empresa el  paso a seguir es conocer la normativa comercial, contable y',
                't: financiera vigente en Colombia específicamente, todo lo referente a las NIIF', 
                't: su objetivo e identificar el organismo emisor',
 		  
-		  'jump Definirmarcoconceptualaplicable'
-		   
+		   'p5': {
+	             'Text': 'Objetivo de las NIIF',
+	             'Do': 'jump ObjetivodelasNIIF'
+	           },
+	         
+	           'p6': {
+	             'Text': 'Cualidades de la información bajo NIIF',
+	             'Do': 'jump CualidadesdelainformaciónbajoNIIF'
+	           },
+	         
+	           'p7': {
+	             'Text': 'Organismo emisor de las NIIF',
+	             'Do': 'jump OrganismoemisordelasNIIF'
+	           },  
+		  
 	       'end',
-	           ], 
+	           ], 	   
 	
 	  'Crearpoliticascontables':[
 		  
 		   'show background empresarial at left with fadeIn', 
 	   
-		   'show character t brava at center with fadeIn',
+		   'show character t shock at center with fadeIn',
 		
 	       't: Estimado aprendiz,',
 		  
@@ -142,8 +153,71 @@ monogatari.script ({
 	    
 		'end',
 	            ],
+		  
+		  
+	  'ObjetivodelasNIIF':[
+		  
+		  'show background internacional at left with fadeIn',
+		  'show character t normal at center with fadeIn',
+		  
+	       't: Las NIIF tiene como objetivo, regular la preparación de información transparente y objetiva.',
+	       't: Estas normas pretenden generar un lenguaje universal  comprensible, para las empresas nacionales e internacionales',
 		
-	 
+	       'end',
+	            ],
+		  
+          'CualidadesdelainformaciónbajoNIIF':[
+		  'show background internacional at left with fadeIn',
+		   'show character t normal at center with fadeIn',
+		  	  
+	       't: En el marco de la normatividad internacional, se estableció 9 principios o cualidades básicas para la', 
+	       't: información financiera presentada, las cuales se han dividido en dos secciones:',
+		  
+		   'p8': {
+	             'Text': 'Cualidades primarias',
+	             'Do': 'jump Cualidadesprimarias'
+	            },
+	         
+	           'p9': {
+	             'Text': 'Cualidades secundarias',
+	             'Do': 'jump Cualidadessecundarias'
+	            },   
+		  
+	       'end',
+	            ],
+			  
+	  'OrganismoemisordelasNIIF':[
+		  'show background internacional at left with fadeIn',
+		  'show character t feliz at center with fadeIn',
+		  
+	       't: Querido Aprendiz', 
+	       't: La Junta de Normas Internacionales de Contabilidad-International Accounting Standards Board-IASB,', 
+	       't: es el organismo que emite dicho cuerpo de normas desde el año 2001',
+		
+	       'end',
+	            ],
+		  
+	            
+	 'Cualidadesprimarias':[
+		 'show background internacional at left with fadeIn', 
+		 
+		 't: •	Comprensible',
+		 't: •	Útil',  
+		 't: •	Confiable',
+		 't: •	Comparable',
+	       'end',
+	            ],
+		  
+	 'Cualidadessecundarias':[
+		 'show background internacional at left with fadeIn',
+		 
+		 't: •	Materialidad',
+		 't: •	Fidelidad representativa',  
+		 't: •	Revelación plena o completa',
+		 't: •	Prudencia',
+		 't: •	Neutralidad:',	
+	       'end',
+	            ],
 	  
 	});
 	
