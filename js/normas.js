@@ -162,8 +162,7 @@ monogatari.script ({
 	       't: Estas normas pretenden generar un lenguaje universal  comprensible, para las empresas nacionales e internacionales',
 		 
 		  'jump Conocernormativavigente'
-		  
-		  'end',
+		 
 	            ],
 		  
 	                 
