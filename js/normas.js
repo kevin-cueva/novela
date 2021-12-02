@@ -115,6 +115,11 @@ monogatari.script ({
                't: financiera vigente en Colombia específicamente, todo lo referente a las NIIF', 
                't: su objetivo e identificar el organismo emisor',
 		  
+		   {
+	       'Choice': {
+	         
+	           'Dialog': 't: Querido Aprendiz, presiona los siguientes botones para profundizar un poco más',
+		  
 		   'p5': {
 	             'Text': 'Objetivo de las NIIF',
 	             'Do': 'jump ObjetivodelasNIIF'
@@ -175,6 +180,11 @@ monogatari.script ({
 		  	  
 	       't: En el marco de la normatividad internacional, se estableció 9 principios o cualidades básicas para la', 
 	       't: información financiera presentada, las cuales se han dividido en dos secciones:',
+		  
+		   {
+	       'Choice': {
+	         
+	           'Dialog': 't: Querido Aprendiz, presiona los siguientes botones donde se mencionan las cualidades ',
 		  
 		   'p8': {
 	             'Text': 'Cualidades primarias',
