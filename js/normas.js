@@ -56,30 +56,9 @@ monogatari.script ({
 	   'Definirmarcoconceptualaplicable': [
 		   
 		   'show background auditoria at left with fadeIn', 
-	   
-	           'show character t brava at center with fadeIn',
-	     
-	       't: Querido Aprendiz',
+	           'show character t brava at center with fadeIn', 
 		   
-		   'hide character t normal with fadeOut', 
-		   
-		   'show character t normal at at right', 
-		   
-               't: Ya usted posee el conocimiento necesario acerca de las Normas Internacionales de Información Financiera,', 
-               't: el paso a seguir  es definir el marco conceptual contable y financiero aplicable a su empresa,',
-               't: de acuerdo a actividad comercial, necesidades de la empresa y la normativa vigente',
-		   
-		   {
-	       'Choice': {
-	         
-	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
-	       
-	           'p10': {
-	             'Text': 'Estructura contable ',
-	             'Do': 'jump Estructuracontable'
-	           },
-	       } 
-	    },    
+		   't: Querido Aprendiz, debes estudiar más',
 		    
 	       'end',
 	           ],
@@ -219,6 +198,19 @@ monogatari.script ({
 	       't: Querido Aprendiz', 
 	       't: La Junta de Normas Internacionales de Contabilidad, en ingles International Accounting Standards Board IASB,', 
 	       't: es el organismo que emite dicho cuerpo de normas desde el año 2001',
+		  
+		   
+		   {
+	       'Choice': {
+	         
+	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
+	       
+	           'p12': {
+	             'Text': 'Marco Conceptual ',
+	             'Do': 'jump MarcoConceptual'
+	           },
+	       } 
+	    },    
 		
 	       'end',
 	            ],
@@ -288,6 +280,32 @@ monogatari.script ({
 	       't: el paso a seguir  es conocer las normas a tener en cuenta para la selección y',
 	       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES', 
 
+		 'end',
+	           ],
+	
+	 'MarcoConceptual': [
+		 
+		 'show background auditoria at left with fadeIn', 
+		 
+		  'show character t normal at at right', 
+		 
+	       't: Querido Aprendiz',
+		   
+               't: Ya usted posee el conocimiento necesario acerca de las Normas Internacionales de Información Financiera,', 
+               't: el paso a seguir  es definir el marco conceptual contable y financiero aplicable a su empresa,',
+               't: de acuerdo a actividad comercial, necesidades de la empresa y la normativa vigente',
+		   
+		   {
+	       'Choice': {
+	         
+	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
+	       
+	           'p10': {
+	             'Text': 'Estructura contable ',
+	             'Do': 'jump Estructuracontable'
+	           },
+	       } 
+	    },   
 		 'end',
 	           ],
 	  
