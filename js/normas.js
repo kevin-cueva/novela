@@ -1,7 +1,6 @@
 monogatari.script ({
 
           'Start_Normas': [
-	    
 	        'show background global at left with fadeIn', 
 	   
 	        'show character t normal at left with fadeIn', 
@@ -56,7 +55,6 @@ monogatari.script ({
 	           ], 	
 
 	   'Definirmarcoconceptualaplicable': [
-		   
 		   'show background auditoria at left with fadeIn', 
 	   
 	           'show character t brava at center with fadeIn',
@@ -76,7 +74,6 @@ monogatari.script ({
 
 	  
 	  'Identificarlaestructuracontable': [
-		  
 	           'show background estructura at left with fadeIn',
 		  
 	           'show character t brava at center with fadeIn',
@@ -97,7 +94,6 @@ monogatari.script ({
 	           ], 
 	  
 	  'Conocernormativavigente': [
-		  
 		  'show background internacional at left with fadeIn', 
 	   
 	          'show character t feliz at center with fadeIn',
@@ -140,7 +136,6 @@ monogatari.script ({
 	           ], 	   
 	
 	  'Crearpoliticascontables':[
-		  
 		   'show background empresarial at left with fadeIn', 
 	   
 		   'show character t shock at center with fadeIn',
@@ -160,7 +155,6 @@ monogatari.script ({
 		  
 		  
 	  'ObjetivodelasNIIF':[
-		  
 		  'show background internacional at left with fadeIn',
 		  'show character t normal at center with fadeIn',
 		  
@@ -169,8 +163,10 @@ monogatari.script ({
 		 
 		  'jump Conocernormativavigente'
 		  
-	       'end',
+		  'end',
 	            ],
+		  
+	                 
 		  
           'CualidadesdelainformaciónbajoNIIF':[
 		  'show background internacional at left with fadeIn',
@@ -179,7 +175,7 @@ monogatari.script ({
 		   {
 	       'Choice': {
 	         
-	           'Dialog': 't: Querido Aprendiz, presiona los siguientes botones donde se mencionan las cualidades ',
+	           'Dialog': 't: Querido Aprendiz, para conocer las cualidades presiona los siguientes botones',
 		  
 		   'p8': {
 	             'Text': 'Cualidades primarias',
