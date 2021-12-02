@@ -15,6 +15,7 @@ monogatari.script ({
 	           'p1': {
 	             'Text': 'Definir marco conceptual aplicable',
 	             'Do': 'jump Definirmarcoconceptualaplicable'
+			   
 	           },
 	         
 	           'p2': {
@@ -51,7 +52,6 @@ monogatari.script ({
 	    
 	     'end',
 	  
-	    
 	   'Definirmarcoconceptualaplicable': [
 		   
 		   'show background auditoria at left with fadeIn', 
@@ -120,14 +120,12 @@ monogatari.script ({
 	             'Text': 'Organismo emisor de las NIIF',
 	             'Do': 'jump OrganismoemisordelasNIIF'
 	           },
-			   
-			   
+			   			   
 	       } 
 	    },
 	     
 	      't: Querido Aprendiz',
-		  
-		   
+		    
                't: Las Normas Internacionales de Información Financiera constituyen el conjunto de normas contables,',
                't: con mayor aceptación a nivel mundial, su objetivo es regular la preparación de información transparente y objetiva.',
                't: estas normas pretenden generar un lenguaje universal y comprensible para las empresas nacionales e internacionales',
@@ -136,9 +134,7 @@ monogatari.script ({
 		  
                't: Una vez constituida su empresa el  paso a seguir es conocer la normativa comercial, contable y',
                't: financiera vigente en Colombia específicamente, todo lo referente a las NIIF', 
-               't: su objetivo e identificar el organismo emisor',
-		  
-		  
+               't: su objetivo e identificar el organismo emisor', 
 		  
 	       'end',
 	           ], 	   
@@ -159,7 +155,6 @@ monogatari.script ({
 	       't: el paso a seguir  es conocer las normas a tener en cuenta para la selección y',
 	       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES', 
 
-	    
 		'end',
 	            ],
 		  
@@ -172,7 +167,7 @@ monogatari.script ({
 	       't: Las NIIF tiene como objetivo, regular la preparación de información transparente y objetiva.',
 	       't: Estas normas pretenden generar un lenguaje universal  comprensible, para las empresas nacionales e internacionales',
 		 
-		  'jump Conocernormativavigente', 
+		  'jump Conocernormativavigente' 
 		  
 	       'end',
 	            ],
@@ -213,7 +208,7 @@ monogatari.script ({
 	       't: La Junta de Normas Internacionales de Contabilidad, en ingles International Accounting Standards Board IASB,', 
 	       't: es el organismo que emite dicho cuerpo de normas desde el año 2001',
 		  
-		  'jump Start_Normas', 
+		  'jump Start_Normas' 
 		
 	       'end',
 	            ],
