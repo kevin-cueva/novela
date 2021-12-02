@@ -47,8 +47,6 @@ monogatari.script ({
 	 
             't: A continuación vamos a evaluar sus conocimientos en,',
             't: Normativa comercial, contable y financiera vigente y políticas contables.'
-	    
-	     'end',
 	  
 	   'Definirmarcoconceptualaplicable': [
 		   
