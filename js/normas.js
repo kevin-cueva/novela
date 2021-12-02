@@ -50,7 +50,6 @@ monogatari.script ({
 	    },    
 	    
 	            'end',
-	  ],
 	  
 	    
 	   'Definirmarcoconceptualaplicable': [
@@ -212,7 +211,7 @@ monogatari.script ({
 	       't: La Junta de Normas Internacionales de Contabilidad, en ingles International Accounting Standards Board IASB,', 
 	       't: es el organismo que emite dicho cuerpo de normas desde el año 2001',
 		  
-		  'jump Conocernormativavigente', 
+		  'jump Start_Normas', 
 		
 	       'end',
 	            ],
@@ -225,6 +224,9 @@ monogatari.script ({
 		 't: Útil',  
 		 't: Confiable',
 		 't: Comparable',
+		 
+		 'jump CualidadesdelainformaciónbajoNIIF'
+	
 	       'end',
 	            ],
 		  
@@ -235,7 +237,9 @@ monogatari.script ({
 		 't: Fidelidad representativa',  
 		 't: Revelación plena o completa',
 		 't: Prudencia',
-		 't: Neutralidad:',	
+		 't: Neutralidad:',
+		 
+		 'jump Conocernormativavigente'
 	       'end',
 	            ],
 	  
