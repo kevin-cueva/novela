@@ -168,10 +168,12 @@ monogatari.script ({
 	       't: Las NIIF tiene como objetivo, regular la preparación de información transparente y objetiva.',
 	       't: Estas normas pretenden generar un lenguaje universal  comprensible, para las empresas nacionales e internacionales',
 		 
-		  'jump Conocernormativavigente' 
+		  'jump Conocernormativavigente'
 		  
 	       'end',
 	            ],
+		  
+	       
 		  
           'CualidadesdelainformaciónbajoNIIF':[
 		  'show background internacional at left with fadeIn',
