@@ -105,7 +105,7 @@ monogatari.script ({
 		   {
 	       'Choice': {
 	         
-	           'Dialog': 't: Querido Aprendiz, presiona los siguientes botones para profundizar un poco más',
+	           'Dialog': 't: Querido Aprendiz',
 		  
 		   'p5': {
 	             'Text': 'Objetivo de las NIIF',
@@ -124,9 +124,7 @@ monogatari.script ({
 			   			   
 	       } 
 	    },
-	     
-	      't: Querido Aprendiz',
-		    
+	         
                't: Las Normas Internacionales de Información Financiera constituyen el conjunto de normas contables,',
                't: con mayor aceptación a nivel mundial, su objetivo es regular la preparación de información transparente y objetiva.',
                't: estas normas pretenden generar un lenguaje universal y comprensible para las empresas nacionales e internacionales',
@@ -135,7 +133,8 @@ monogatari.script ({
 		  
                't: Una vez constituida su empresa el  paso a seguir es conocer la normativa comercial, contable y',
                't: financiera vigente en Colombia específicamente, todo lo referente a las NIIF', 
-               't: su objetivo e identificar el organismo emisor', 
+               't: su objetivo e identificar el organismo emisor', 	  
+	       't:  Aprendiz, presiona los siguientes botones para profundizar un poco más',
 		  
 	       'end',
 	           ], 	   
@@ -172,8 +171,6 @@ monogatari.script ({
 		  
 	       'end',
 	            ],
-		  
-	       
 		  
           'CualidadesdelainformaciónbajoNIIF':[
 		  'show background internacional at left with fadeIn',
