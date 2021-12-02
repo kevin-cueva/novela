@@ -204,8 +204,6 @@ monogatari.script ({
 	       't: Querido Aprendiz', 
 	       't: La Junta de Normas Internacionales de Contabilidad, en ingles International Accounting Standards Board IASB,', 
 	       't: es el organismo que emite dicho cuerpo de normas desde el año 2001',
-		  
-		  'jump Start_Normas' 
 		
 	       'end',
 	            ],
