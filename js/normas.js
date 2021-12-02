@@ -68,6 +68,18 @@ monogatari.script ({
                't: Ya usted posee el conocimiento necesario acerca de las Normas Internacionales de Información Financiera,', 
                't: el paso a seguir  es definir el marco conceptual contable y financiero aplicable a su empresa,',
                't: de acuerdo a actividad comercial, necesidades de la empresa y la normativa vigente',
+		   
+		   {
+	       'Choice': {
+	         
+	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
+	       
+	           'p10': {
+	             'Text': 'Estructura contable ',
+	             'Do': 'jump Estructuracontable'
+	           },
+	       } 
+	    },    
 		    
 	       'end',
 	           ],
@@ -91,6 +103,18 @@ monogatari.script ({
                't: del grupo 2 normas NIIF para PYMES, por lo cual es necesario Identificar si su empresa cumple con los', 
                't: requisitos para ser catalogadas como pequeña y mediana empresa',
 		  
+		  {
+	       'Choice': {
+	         
+	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
+	         
+		   'p11': {
+	             'Text': 'Politicas contables',
+	             'Do': 'jump Politicascontables'
+	           },
+	       } 
+	    },    
+		  	  
 	       'end',
 	           ], 
 	  
@@ -134,16 +158,10 @@ monogatari.script ({
 	   
 		   'show character t shock at center with fadeIn',
 		
-	       't: Estimado aprendiz,',
+	       't: Querido aprendiz, debes estudiar más',
 		  
 		   'hide character t normal with fadeOut',
 		  
-		   'show character t normal at right', 
-		  
-               't: Ya tiene identificada la estructura contable de su  empresa,', 
-	       't: el paso a seguir  es conocer las normas a tener en cuenta para la selección y',
-	       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES', 
-
 		'end',
 	            ],
 		  
@@ -244,6 +262,25 @@ monogatari.script ({
 		
 	       'end',
 	            ],
+	
+	 'Estructuracontable': [
+		 'end',
+	           ],
+	
+	'Politicascontables': [
+		
+		'show background empresarial at left with fadeIn', 
+	   
+	        'show character t normal at right', 
+		  
+	       't: Estimado aprendiz,',
+		  
+               't: Ya tiene identificada la estructura contable de su  empresa,', 
+	       't: el paso a seguir  es conocer las normas a tener en cuenta para la selección y',
+	       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES', 
+
+		 'end',
+	           ],
 	  
 	});
 	
