@@ -46,9 +46,7 @@ monogatari.script ({
 	        'show character t feliz at center with fadeIn',
 	 
             't: A continuación vamos a evaluar sus conocimientos en,',
-            't: Normativa comercial, contable y financiera vigente y políticas contables.',
-	 
-                'hide character t normal with fadeOut', 
+            't: Normativa comercial, contable y financiera vigente y políticas contables.'
 	    
 	     'end',
 	  
@@ -68,7 +66,6 @@ monogatari.script ({
                't: el paso a seguir  es definir el marco conceptual contable y financiero aplicable a su empresa,',
                't: de acuerdo a actividad comercial, necesidades de la empresa y la normativa vigente',
 		   
-		 
 	       'end',
 	           ],
 
@@ -89,8 +86,7 @@ monogatari.script ({
                't: el paso a seguir es identificar la estructura contable aplicable a su empresa.',
                't: De acuerdo al proyecto formativo, usted debe tener como referencia el marco normativo',
                't: del grupo 2 normas NIIF para PYMES, por lo cual es necesario Identificar si su empresa cumple con los', 
-               't: requisitos para ser catalogadas como pequeña y mediana empresa',
-		  
+               't: requisitos para ser catalogadas como pequeña y mediana empresa'	  
 		  
 	       'end',
 	           ], 
