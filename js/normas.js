@@ -50,6 +50,7 @@ monogatari.script ({
 	    },    
 	    
 	            'end',
+		        ],
 	  
 	    
 	   'Definirmarcoconceptualaplicable': [
