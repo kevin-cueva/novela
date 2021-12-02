@@ -51,8 +51,7 @@ monogatari.script ({
 	    
 	            'end',
 	  ],
-	 
-	      
+	  
 	    
 	   'Definirmarcoconceptualaplicable': [
 		   
@@ -191,7 +190,7 @@ monogatari.script ({
 		  'show character t feliz at center with fadeIn',
 		  
 	       't: Querido Aprendiz', 
-	       't: La Junta de Normas Internacionales de Contabilidad-International Accounting Standards Board-IASB,', 
+	       't: La Junta de Normas Internacionales de Contabilidad, en ingles International Accounting Standards Board IASB,', 
 	       't: es el organismo que emite dicho cuerpo de normas desde el año 2001',
 		
 	       'end',
@@ -201,21 +200,21 @@ monogatari.script ({
 	 'Cualidadesprimarias':[
 		 'show background internacional at left with fadeIn', 
 		 
-		 't: •	Comprensible',
-		 't: •	Útil',  
-		 't: •	Confiable',
-		 't: •	Comparable',
+		 't: Comprensible',
+		 't: Útil',  
+		 't: Confiable',
+		 't: Comparable',
 	       'end',
 	            ],
 		  
 	 'Cualidadessecundarias':[
 		 'show background internacional at left with fadeIn',
 		 
-		 't: •	Materialidad',
-		 't: •	Fidelidad representativa',  
-		 't: •	Revelación plena o completa',
-		 't: •	Prudencia',
-		 't: •	Neutralidad:',	
+		 't: Materialidad',
+		 't: Fidelidad representativa',  
+		 't: Revelación plena o completa',
+		 't: Prudencia',
+		 't: Neutralidad:',	
 	       'end',
 	            ],
 	  
