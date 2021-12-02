@@ -46,12 +46,11 @@ monogatari.script ({
 	        'show character t feliz at center with fadeIn',
 	 
             't: A continuación vamos a evaluar sus conocimientos en,',
-            't: Normativa comercial, contable y financiera vigente y políticas contables.',
+            't: Normativa comercial, contable, financiera vigente y políticas contables.',
 		  
 		'end',
-	          ],
+	           ], 	
 
-	  
 	   'Definirmarcoconceptualaplicable': [
 		   
 		   'show background auditoria at left with fadeIn', 
