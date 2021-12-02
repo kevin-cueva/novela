@@ -91,7 +91,7 @@ monogatari.script ({
                't: el paso a seguir es identificar la estructura contable aplicable a su empresa.',
                't: De acuerdo al proyecto formativo, usted debe tener como referencia el marco normativo',
                't: del grupo 2 normas NIIF para PYMES, por lo cual es necesario Identificar si su empresa cumple con los', 
-               't: requisitos para ser catalogadas como pequeña y mediana empresa'	  
+               't: requisitos para ser catalogadas como pequeña y mediana empresa',	  
 		  
 	       'end',
 	           ], 
