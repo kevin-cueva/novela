@@ -163,9 +163,7 @@ monogatari.script ({
 		 
 		  'jump Conocernormativavigente'
 		 
-	            ],
-		  
-	                 
+	            
 		  
           'CualidadesdelainformaciónbajoNIIF':[
 		  'show background internacional at left with fadeIn',
