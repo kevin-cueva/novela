@@ -170,7 +170,9 @@ monogatari.script ({
 		  
 	       't: Las NIIF tiene como objetivo, regular la preparación de información transparente y objetiva.',
 	       't: Estas normas pretenden generar un lenguaje universal  comprensible, para las empresas nacionales e internacionales',
-		
+		 
+		  'jump p6', 
+		  
 	       'end',
 	            ],
 		  
@@ -199,6 +201,8 @@ monogatari.script ({
 	       } 
 	    },
 		  
+		  'jump p7', 
+		  
 	       'end',
 	            ],
 			  
@@ -209,6 +213,8 @@ monogatari.script ({
 	       't: Querido Aprendiz', 
 	       't: La Junta de Normas Internacionales de Contabilidad, en ingles International Accounting Standards Board IASB,', 
 	       't: es el organismo que emite dicho cuerpo de normas desde el año 2001',
+		  
+		  'jump p2', 
 		
 	       'end',
 	            ],
