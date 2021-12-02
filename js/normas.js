@@ -5,22 +5,8 @@ monogatari.script ({
 	        'show background global at left with fadeIn', 
 	   
 	        'show character t normal at left with fadeIn', 
-	   
-	    't: Estimado Aprendiz,',
-	    
-	    't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
-	    't: sobre todo en cuestiones de negocios y finanzas.', 
-	    't: La información confiable y comparable en el ámbito financiero,', 
-            't: es necesaria para que en las empresas se tomen las mejores decisiones.',
-	 
-	        'show character t feliz at center with fadeIn',
-	 
-            't: A continuación vamos a evaluar sus conocimientos en,',
-            't: Normativa comercial, contable y financiera vigente y políticas contables.',
-	 
-                'hide character t normal with fadeOut', 
-	    
-	    {
+		  
+		  {
 	       'Choice': {
 	         
 	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
@@ -47,9 +33,23 @@ monogatari.script ({
 	           },
 	
 	       } 
-	    },    
+	    },   
+	   
+	    't: Estimado Aprendiz,',
 	    
-	            'end',
+	    't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
+	    't: sobre todo en cuestiones de negocios y finanzas.', 
+	    't: La información confiable y comparable en el ámbito financiero,', 
+            't: es necesaria para que en las empresas se tomen las mejores decisiones.',
+	 
+	        'show character t feliz at center with fadeIn',
+	 
+            't: A continuación vamos a evaluar sus conocimientos en,',
+            't: Normativa comercial, contable y financiera vigente y políticas contables.',
+	 
+                'hide character t normal with fadeOut', 
+	    
+	     'end',
 	  
 	    
 	   'Definirmarcoconceptualaplicable': [
@@ -100,19 +100,6 @@ monogatari.script ({
 		  'show background internacional at left with fadeIn', 
 	   
 	          'show character t feliz at center with fadeIn',
-	     
-	      't: Querido Aprendiz',
-		  
-		   
-               't: Las Normas Internacionales de Información Financiera constituyen el conjunto de normas contables,',
-               't: con mayor aceptación a nivel mundial, su objetivo es regular la preparación de información transparente y objetiva.',
-               't: estas normas pretenden generar un lenguaje universal y comprensible para las empresas nacionales e internacionales',
-
-	      'show background decisiones at left with fadeIn',
-		  
-               't: Una vez constituida su empresa el  paso a seguir es conocer la normativa comercial, contable y',
-               't: financiera vigente en Colombia específicamente, todo lo referente a las NIIF', 
-               't: su objetivo e identificar el organismo emisor',
 		  
 		   {
 	       'Choice': {
@@ -137,6 +124,21 @@ monogatari.script ({
 			   
 	       } 
 	    },
+	     
+	      't: Querido Aprendiz',
+		  
+		   
+               't: Las Normas Internacionales de Información Financiera constituyen el conjunto de normas contables,',
+               't: con mayor aceptación a nivel mundial, su objetivo es regular la preparación de información transparente y objetiva.',
+               't: estas normas pretenden generar un lenguaje universal y comprensible para las empresas nacionales e internacionales',
+
+	      'show background decisiones at left with fadeIn',
+		  
+               't: Una vez constituida su empresa el  paso a seguir es conocer la normativa comercial, contable y',
+               't: financiera vigente en Colombia específicamente, todo lo referente a las NIIF', 
+               't: su objetivo e identificar el organismo emisor',
+		  
+		  
 		  
 	       'end',
 	           ], 	   
@@ -178,9 +180,6 @@ monogatari.script ({
           'CualidadesdelainformaciónbajoNIIF':[
 		  'show background internacional at left with fadeIn',
 		   'show character t normal at center with fadeIn',
-		  	  
-	       't: En el marco de la normatividad internacional, se estableció 9 principios o cualidades básicas para la', 
-	       't: información financiera presentada, las cuales se han dividido en dos secciones:',
 		  
 		   {
 	       'Choice': {
@@ -199,7 +198,10 @@ monogatari.script ({
 			    
 	       } 
 	    },
-		  
+		  	  
+	       't: En el marco de la normatividad internacional, se estableció 9 principios o cualidades básicas para la', 
+	       't: información financiera presentada, las cuales se han dividido en dos secciones:',
+		   
 	       'end',
 	            ],
 			  
