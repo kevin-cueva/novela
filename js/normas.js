@@ -116,24 +116,12 @@ monogatari.script ({
 		   {
 	       'Choice': {
 	         
-	           'Dialog': 't: Querido Aprendiz, presiona los siguientes botones para profundizar un poco más',
+	           'Dialog': 't: Querido Aprendiz, presiona el siguiente boton para continuar',
 		  
 		   'p5': {
 	             'Text': 'Objetivo de las NIIF',
 	             'Do': 'jump ObjetivodelasNIIF'
-	           },
-	         
-	           'p6': {
-	             'Text': 'Cualidades de la información bajo NIIF',
-	             'Do': 'jump CualidadesdelainformaciónbajoNIIF'
-	           },
-	         
-	           'p7': {
-	             'Text': 'Organismo emisor de las NIIF',
-	             'Do': 'jump OrganismoemisordelasNIIF'
-	           },
-			   
-			   
+	           },	   	   
 	       } 
 	    },
 		  
@@ -167,8 +155,18 @@ monogatari.script ({
 		  
 	       't: Las NIIF tiene como objetivo, regular la preparación de información transparente y objetiva.',
 	       't: Estas normas pretenden generar un lenguaje universal  comprensible, para las empresas nacionales e internacionales',
-		 
-		  'jump Conocernormativavigente', 
+		   {
+	       'Choice': {
+	         
+	           'Dialog': 't: Querido Aprendiz, presiona el siguiente boton para continuar',
+		  
+		           
+	           'p6': {
+	             'Text': 'Cualidades de la información bajo NIIF',
+	             'Do': 'jump CualidadesdelainformaciónbajoNIIF'
+	           },	   	   
+	       } 
+	    },
 		  
 	       'end',
 	            ],
@@ -193,8 +191,7 @@ monogatari.script ({
 	           'p9': {
 	             'Text': 'Cualidades secundarias',
 	             'Do': 'jump Cualidadessecundarias'
-	            },  
-			    
+	            }, 	    
 	       } 
 	    },
 		  
@@ -232,6 +229,18 @@ monogatari.script ({
 		 't: Revelación plena o completa',
 		 't: Prudencia',
 		 't: Neutralidad:',
+		 
+		   {
+	       'Choice': {
+	         
+	           'Dialog': 't: Querido Aprendiz, presiona el siguiente boton para continuar',
+		  
+		  'p7': {
+	             'Text': 'Organismo emisor de las NIIF',
+	             'Do': 'jump OrganismoemisordelasNIIF'
+	           },         	   
+	       } 
+	    },
 		
 	       'end',
 	            ],
