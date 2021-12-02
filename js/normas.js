@@ -68,8 +68,7 @@ monogatari.script ({
                't: Ya usted posee el conocimiento necesario acerca de las Normas Internacionales de Información Financiera,', 
                't: el paso a seguir  es definir el marco conceptual contable y financiero aplicable a su empresa,',
                't: de acuerdo a actividad comercial, necesidades de la empresa y la normativa vigente',
-		   
-		 
+		    
 	       'end',
 	           ],
 
@@ -91,7 +90,6 @@ monogatari.script ({
                't: De acuerdo al proyecto formativo, usted debe tener como referencia el marco normativo',
                't: del grupo 2 normas NIIF para PYMES, por lo cual es necesario Identificar si su empresa cumple con los', 
                't: requisitos para ser catalogadas como pequeña y mediana empresa',
-		  
 		  
 	       'end',
 	           ], 
@@ -158,7 +156,6 @@ monogatari.script ({
 	       't: el paso a seguir  es conocer las normas a tener en cuenta para la selección y',
 	       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES', 
 
-	    
 		'end',
 	            ],
 		  
@@ -211,8 +208,6 @@ monogatari.script ({
 	       't: Querido Aprendiz', 
 	       't: La Junta de Normas Internacionales de Contabilidad, en ingles International Accounting Standards Board IASB,', 
 	       't: es el organismo que emite dicho cuerpo de normas desde el año 2001',
-		  
-		  'jump Start_Normas', 
 		
 	       'end',
 	            ],
@@ -225,11 +220,9 @@ monogatari.script ({
 		 't: Útil',  
 		 't: Confiable',
 		 't: Comparable',
-		 
-		 'jump CualidadesdelainformaciónbajoNIIF'
 	
 	       'end',
-	            ],
+	           ],
 		  
 	 'Cualidadessecundarias':[
 		 'show background internacional at left with fadeIn',
@@ -239,8 +232,7 @@ monogatari.script ({
 		 't: Revelación plena o completa',
 		 't: Prudencia',
 		 't: Neutralidad:',
-		 
-		 'jump Conocernormativavigente'
+		
 	       'end',
 	            ],
 	  
