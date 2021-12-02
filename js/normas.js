@@ -128,7 +128,11 @@ monogatari.script ({
 	           'p7': {
 	             'Text': 'Organismo emisor de las NIIF',
 	             'Do': 'jump OrganismoemisordelasNIIF'
-	           },  
+	           },
+			   
+			   
+	       } 
+	    },
 		  
 	       'end',
 	           ], 	   
@@ -180,7 +184,10 @@ monogatari.script ({
 	           'p9': {
 	             'Text': 'Cualidades secundarias',
 	             'Do': 'jump Cualidadessecundarias'
-	            },   
+	            },  
+			    
+	       } 
+	    },
 		  
 	       'end',
 	            ],
