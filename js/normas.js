@@ -199,17 +199,13 @@ monogatari.script ({
 		   {
 	       'Choice': {
 	         
-	           'Dialog': 't: Querido Aprendiz, presiona los siguientes botones donde se mencionan las cualidades ',
+	           'Dialog': 't: Querido Aprendiz, presiona el siguientes botonescorrespondiente a la sección 1',
 		  
 		   'p8': {
 	             'Text': 'Cualidades primarias',
 	             'Do': 'jump Cualidadesprimarias'
 	            },
-	         
-	           'p9': {
-	             'Text': 'Cualidades secundarias',
-	             'Do': 'jump Cualidadessecundarias'
-	            }, 	    
+	            
 	       } 
 	    },
 		  
@@ -235,6 +231,19 @@ monogatari.script ({
 		 't: Útil',  
 		 't: Confiable',
 		 't: Comparable',
+		 
+		  {
+	       'Choice': {
+	         
+	           'Dialog': 't: Querido Aprendiz, presiona el siguientes botonescorrespondiente a la sección 2',
+	         
+	           'p9': {
+	             'Text': 'Cualidades secundarias',
+	             'Do': 'jump Cualidadessecundarias'
+	            }, 	    
+	       } 
+	    },
+		  
 	
 	       'end',
 	           ],
