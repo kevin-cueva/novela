@@ -650,6 +650,7 @@ monogatari.script ({
 	
 //Paso3:	
 	'logodelaempresa': [
+		'show background logos at left with fadeIn',
 		't: Querido aprendiz, teniendo en cuenta la actividad económica,',
 		't: seleccionada y el nombre escogido, debes diseñar, una imagen',
 		't: que identifique tu empresa, que a donde quiera que esté presente,',

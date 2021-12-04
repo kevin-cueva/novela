@@ -102,6 +102,11 @@ monogatari.assets ('scenes', {
 	'empresarial': 'empresarial.jpg',
 	'acuerdo': 'acuerdo.jpg',
 	'auditoria': 'auditoria.jpg',
+	'logos': 'logos.jpg',
+	'dinero': 'dinero.jpg',
+	'factura': 'factura.jpg',
+	'acta': 'acta.jpg',
+	'capital': 'capital.jpg',
 
 });
 
