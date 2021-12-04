@@ -8,9 +8,8 @@ monogatari.script ({
 		
 		'show character t normal',
 
-		//Temporalmente salto directo al calculo de capital
-		'jump Actadeconstituciónyregistromercantil2',
-		//'jump InicioConstitucion',
+		
+		'jump InicioConstitucion',
 
 		//'jump logodelaempresa',
 		//'jump Actividadeconomica',
@@ -18,11 +17,10 @@ monogatari.script ({
 		//'jump cuentabancaria',
 		
 		//'jump Resoluciondefacturacion',
-		
 
-
-		
-
+		//Temporalmente salto directo al calculo de capital
+		//'jump Actadeconstituciónyregistromercantil2',
+	
 		//'jump clasificacionObjetivo',
       
 	],
@@ -782,7 +780,7 @@ monogatari.script ({
 		't: ante la cámara de comercio de su ciudad,',
 		't: recuerde que debe constituirla con máximo 6 accionistas,',
 		't: donde cada uno debe aportar dinero o bienes que tengan,',
-                't: relación con la actividad económica seleccionada,',
+        't: relación con la actividad económica seleccionada,',
 		't: por ejemplo, para la heladería, se necesitaría una nevera industrial de alta capacidad.',
 		't: Con este trámite, el funcionario de la cámara de comercio,',
 		't: les debe entregar certificado de existencia y representación legal',
@@ -799,9 +797,38 @@ monogatari.script ({
 	
 	
 	'Actadeconstituciónyregistromercantil2': [
-		// 't: A contunuación usted deberá colocar el valor de los distintos capitales',
-		// 't: Tenga en cuenta la normatividad para el calculo de los mismos',
-	    // 't: Además deberá designar un representante legal',
+
+			't: Deberá designar un representante legal',
+
+			{'Input': {
+				'Text': 'Ingrese aquí el nombre del representante legal de su empresa didáctica:',
+				'Validation': function (input) {
+					return input.trim ().length > 0;
+				},
+				'Save': function (input) {
+					this.storage ({
+						player: {
+							nombreRepresentanteLegal: input
+						}
+					});
+					return true;
+				},
+				'Revert': function () {
+					this.storage ({
+						player: {
+							nombreRepresentanteLegal: ''
+						}
+					});
+				},
+				'Warning': 'Debes ingresar un nombre!'
+			},},
+
+		't: El nombre del representante legal es: {{player.nombreRepresentanteLegal}}, bien hecho!',
+
+
+		't: A contunuación usted deberá colocar el valor de los distintos capitales',
+		't: Tenga en cuenta la normatividad para el calculo de los mismos',
+	    
 
 		{'Input': {
 			'Text': 'Ingrese el valor del capital autorizado:',
