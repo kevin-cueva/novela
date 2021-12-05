@@ -45,7 +45,6 @@ monogatari.script ({
 	             'Text': 'Crear politicas contables',
 	             'Do': 'jump Crearpoliticascontables'
 	           },
-	
 	       } 
 	    },    
 	    
@@ -70,29 +69,7 @@ monogatari.script ({
 		  
 	           'show character t brava at center with fadeIn',
 	     
-	       't: Querido Aprendiz',
-		  
-		   'hide character t normal with fadeOut', 
-		  
-		   'show character t normal  at right', 
-		  
-               't: Una vez identificados los marco normativo contenidos en del DUR 2420/2015 específicamente los Grupo 1,2 y 3,',
-               't: el paso a seguir es identificar la estructura contable aplicable a su empresa.',
-               't: De acuerdo al proyecto formativo, usted debe tener como referencia el marco normativo',
-               't: del grupo 2 normas NIIF para PYMES, por lo cual es necesario Identificar si su empresa cumple con los', 
-               't: requisitos para ser catalogadas como pequeña y mediana empresa',
-		  
-		  {
-	       'Choice': {
-	         
-	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
-	         
-		   'p11': {
-	             'Text': 'Politicas contables',
-	             'Do': 'jump Politicascontables'
-	           },
-	       } 
-	    },    
+	       't: Querido Aprendiz, debes estudiar más', 
 		  	  
 	       'end',
 	           ], 
@@ -183,8 +160,7 @@ monogatari.script ({
 		   'p8': {
 	             'Text': 'Cualidades primarias',
 	             'Do': 'jump Cualidadesprimarias'
-	            },
-	            
+	            },          
 	       } 
 	    },
 		  
@@ -219,10 +195,10 @@ monogatari.script ({
 	 'Cualidadesprimarias':[
 		 'show background internacional at left with fadeIn', 
 		 
-		 't: Comprensible',
-		 't: Útil',  
-		 't: Confiable',
-		 't: Comparable',
+		 't: Comprensible: Cuando sea clara y fácil de entender',
+		 't: Útil: Cuando además de confiable, la información sea pertinente, cuando la información esté al día oportuna',  
+		 't: Confiable: Quiere decir que la información debe estar basada en hechos que se puedan comprobar, verificables',
+		 't: Comparable: Cuando esté preparada sobre bases uniformes',
 		 
 		  {
 	       'Choice': {
@@ -243,11 +219,15 @@ monogatari.script ({
 	 'Cualidadessecundarias':[
 		 'show background internacional at left with fadeIn',
 		 
-		 't: Materialidad',
-		 't: Fidelidad representativa',  
-		 't: Revelación plena o completa',
-		 't: Prudencia',
-		 't: Neutralidad:',
+		 't: Materialidad: Un hecho económico es material cuando debido a su naturaleza y cuantía,', 
+		 't: su conocimiento o desconocimiento, teniendo en cuenta las circunstancias que lo rodean,',
+		 't: Fidelidad representativa: Debe  existir una correspondencia entre las mediciones y', 
+		 't: valuaciones contables realizadas y los hechos económicos que éstas representan',  
+		 't: Revelación plena o completa: La información contable debe ser suministrada completamente,', 
+		 't: ella debe dar cuenta en su totalidad de los hechos económicos registrados por el sistema contable',
+		 't: Prudencia: toda medición y registro de hechos económicos debe procurar no sobreestimar activos e ingresos,', 
+		 't: ni subestimar pasivos y gastos',
+		 't: Neutralidad: La información contable será fiable, si está libre de sesgo o perjuicio.',
 		 
 		   {
 	       'Choice': {
@@ -265,6 +245,31 @@ monogatari.script ({
 	            ],
 	
 	 'Estructuracontable': [
+		 
+		  't: Querido Aprendiz',
+		  
+		   'hide character t normal with fadeOut', 
+		  
+		   'show character t normal  at right', 
+		  
+               't: Una vez identificados los marco normativo contenidos en del DUR 2420/2015 específicamente los Grupo 1,2 y 3,',
+               't: el paso a seguir es identificar la estructura contable aplicable a su empresa.',
+               't: De acuerdo al proyecto formativo, usted debe tener como referencia el marco normativo',
+               't: del grupo 2 normas NIIF para PYMES, por lo cual es necesario Identificar si su empresa cumple con los', 
+               't: requisitos para ser catalogadas como pequeña y mediana empresa',
+		 
+		  {
+	       'Choice': {
+	         
+	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
+	         
+		   'p11': {
+	             'Text': 'Politicas contables',
+	             'Do': 'jump Politicascontables'
+	           },
+	       } 
+	    },    
+		 
 		 'end',
 	           ],
 	
