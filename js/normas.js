@@ -4,23 +4,9 @@ monogatari.script ({
 	    
 	        'show background global at left with fadeIn', 
 	   
-	        'show character t normal at left with fadeIn', 
-	   
-	    't: Estimado Aprendiz,',
-	    
-	    't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
-	    't: sobre todo en cuestiones de negocios y finanzas.', 
-	    't: La información confiable y comparable en el ámbito financiero,', 
-            't: es necesaria para que en las empresas se tomen las mejores decisiones.',
-	 
-	        'show character t feliz at center with fadeIn',
-	 
-            't: A continuación vamos a evaluar sus conocimientos en,',
-            't: Normativa comercial, contable y financiera vigente y políticas contables.',
-	 
-                'hide character t normal with fadeOut', 
-	    
-	    {
+	        'show character t normal at left with fadeIn',
+		 
+		  {
 	       'Choice': {
 	         
 	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
@@ -47,6 +33,22 @@ monogatari.script ({
 	           },
 	       } 
 	    },    
+	   
+	    't: Estimado Aprendiz,',
+	    
+	    't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
+	    't: sobre todo en cuestiones de negocios y finanzas.', 
+	    't: La información confiable y comparable en el ámbito financiero,', 
+            't: es necesaria para que en las empresas se tomen las mejores decisiones.',
+	 
+	        'show character t feliz at center with fadeIn',
+	 
+            't: A continuación vamos a evaluar sus conocimientos en,',
+            't: Normativa comercial, contable y financiera vigente y políticas contables.',
+	 
+                'hide character t normal with fadeOut', 
+	    
+	   
 	    
 	            'end',
 		        ],
