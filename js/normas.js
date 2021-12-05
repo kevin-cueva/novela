@@ -47,9 +47,7 @@ monogatari.script ({
             't: Normativa comercial, contable y financiera vigente y políticas contables.',
 	 
                 'hide character t normal with fadeOut', 
-	    
 	   
-	    
 	            'end',
 		        ],
 	  
@@ -72,9 +70,7 @@ monogatari.script ({
 	           'show character t brava at center with fadeIn',
 	     
 	       't: Querido Aprendiz, debes estudiar más', 
-		  
-		   'jump Start_Normas'
-		  	  
+		 
 	       'end',
 	           ], 
 	  
@@ -121,8 +117,6 @@ monogatari.script ({
 	       't: Querido aprendiz, debes estudiar más',
 		  
 		   'hide character t normal with fadeOut',
-		  
-		   'jump Start_Normas'
 		  
 		'end',
 	            ],
