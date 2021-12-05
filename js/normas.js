@@ -60,8 +60,6 @@ monogatari.script ({
 	           'show character t brava at center with fadeIn', 
 		   
 		   't: Querido Aprendiz, debes estudiar más',
-		   
-		   'jump Start_Normas'
 		    
 	       'end',
 	           ],
