@@ -6,6 +6,20 @@ monogatari.script ({
 	   
 	        'show character t normal at left with fadeIn',
 		 
+	    't: Estimado Aprendiz,',
+	    
+	    't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
+	    't: sobre todo en cuestiones de negocios y finanzas.', 
+	    't: La información confiable y comparable en el ámbito financiero,', 
+            't: es necesaria para que en las empresas se tomen las mejores decisiones.',
+	 
+	        'show character t feliz at center with fadeIn',
+	 
+            't: A continuación los invito a seguir las indicaciones para apropiar los conocimientos en,',
+            't: Normativa comercial, contable y financiera vigente y políticas contables.',
+	 
+                'hide character t normal with fadeOut',
+		 
 		  {
 	       'Choice': {
 	         
@@ -33,20 +47,6 @@ monogatari.script ({
 	           },
 	       } 
 	    },    
-	   
-	    't: Estimado Aprendiz,',
-	    
-	    't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
-	    't: sobre todo en cuestiones de negocios y finanzas.', 
-	    't: La información confiable y comparable en el ámbito financiero,', 
-            't: es necesaria para que en las empresas se tomen las mejores decisiones.',
-	 
-	        'show character t feliz at center with fadeIn',
-	 
-            't: A continuación vamos a evaluar sus conocimientos en,',
-            't: Normativa comercial, contable y financiera vigente y políticas contables.',
-	 
-                'hide character t normal with fadeOut', 
 	   
 	            'end',
 		        ],
@@ -155,7 +155,7 @@ monogatari.script ({
 		   {
 	       'Choice': {
 	         
-	           'Dialog': 't: Querido Aprendiz, presiona el siguientes botonescorrespondiente a la sección 1',
+	           'Dialog': 't: Querido Aprendiz, presiona el siguientes boton correspondiente a la sección 1',
 		  
 		   'p8': {
 	             'Text': 'Cualidades primarias',
@@ -203,7 +203,7 @@ monogatari.script ({
 		  {
 	       'Choice': {
 	         
-	           'Dialog': 't: Querido Aprendiz, presiona el siguientes botonescorrespondiente a la sección 2',
+	           'Dialog': 't: Querido Aprendiz, presiona el siguientes boton correspondiente a la sección 2',
 	         
 	           'p9': {
 	             'Text': 'Cualidades secundarias',
