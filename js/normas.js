@@ -23,7 +23,8 @@ monogatari.script ({
 		  {
 	       'Choice': {
 	         
-	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
+	           'Dialog': 't: Querido Aprendiz, constituida su empresa y teniendo en cuenta sus conocimientos previos,', 
+		             't: seleccione el paso a seguir',
 	         
 	         
 	           'p1': {
@@ -89,9 +90,9 @@ monogatari.script ({
 
 	      'show background decisiones at left with fadeIn',
 		  
-               't: Una vez constituida su empresa el  paso a seguir es conocer la normativa comercial, contable y',
-               't: financiera vigente en Colombia específicamente, todo lo referente a las NIIF', 
-               't: su objetivo e identificar el organismo emisor',
+               't: Una vez constituida su empresa el  paso a seguir es conocer la normativa comercial, contable y financiera vigente en Colombia',
+               't: específicamente, todo lo referente a las NIIF, su objetivo e identificar el organismo emisor', 
+               
 		  
 		   {
 	       'Choice': {
@@ -196,8 +197,8 @@ monogatari.script ({
 		 'show background internacional at left with fadeIn', 
 		 
 		 't: Comprensible: Cuando sea clara y fácil de entender',
-		 't: Útil: Cuando además de confiable, la información sea pertinente, cuando la información esté al día oportuna',  
-		 't: Confiable: Quiere decir que la información debe estar basada en hechos que se puedan comprobar, verificables',
+		 't: Útil: Cuando además de confiable, la información sea pertinente y esté al día de forma oportuna',  
+		 't: Confiable: Quiere decir que la información debe estar basada en hechos que se puedan comprobar y verificar',
 		 't: Comparable: Cuando esté preparada sobre bases uniformes',
 		 
 		  {
@@ -219,13 +220,12 @@ monogatari.script ({
 	 'Cualidadessecundarias':[
 		 'show background internacional at left with fadeIn',
 		 
-		 't: Materialidad: Un hecho económico es material cuando debido a su naturaleza y cuantía,', 
-		 't: su conocimiento o desconocimiento, teniendo en cuenta las circunstancias que lo rodean,',
+		 't: Materialidad: Un hecho económico es material  debido a las circunstancias que lo rodean, su naturaleza y cuantía,', 
 		 't: Fidelidad representativa: Debe  existir una correspondencia entre las mediciones y', 
 		 't: valuaciones contables realizadas y los hechos económicos que éstas representan',  
 		 't: Revelación plena o completa: La información contable debe ser suministrada completamente,', 
 		 't: ella debe dar cuenta en su totalidad de los hechos económicos registrados por el sistema contable',
-		 't: Prudencia: toda medición y registro de hechos económicos debe procurar no sobreestimar activos e ingresos,', 
+		 't: Prudencia: Toda medición y registro de hechos económicos debe procurar no sobreestimar activos e ingresos,', 
 		 't: ni subestimar pasivos y gastos',
 		 't: Neutralidad: La información contable será fiable, si está libre de sesgo o perjuicio.',
 		 
