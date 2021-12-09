@@ -774,6 +774,7 @@ monogatari.script ({
 
 	
 	'Actadeconstituciónyregistromercantil': [
+		'show background acta at left with fadeIn',
 		't: Señor empresario (Aprendiz),',
 		't: usted deberá constituir una empresa,',
 		't: dándole forma legal con el acta de constitución,',
