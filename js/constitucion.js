@@ -941,7 +941,7 @@ monogatari.script ({
         ],
 	
 	'cuentabancaria': [
-		
+		'show background dinero at left with fadeIn',
 		't: Estimado empresario, te daré un formato de apertura de la cuenta bancaria',
 		't: desde está cuenta deben manejar todos los pagos e ingresos,',
 		't: dado que, por norma tributaria, todas las transacciones',
