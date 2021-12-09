@@ -1000,7 +1000,8 @@ monogatari.script ({
 	
 	
 	'Resoluciondefacturacion': [
-	
+		
+	        'show background factura at left with fadeIn',
 		't: Querido empresario, te orientaré en el diligenciamiento',
 		't: de la solicitud de resolución de facturación,',
 		't: si los productos que ustedes van ofrecer son de consumo masivo,',
