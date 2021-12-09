@@ -932,7 +932,7 @@ monogatari.script ({
 			'Warning': 'La acción deber ser menor o igual al capital pagado'
 		}},
 
-		't: Valor de la acción es: {{capitalPagado}}',
+		't: Valor de la acción es: {{valorAccion}}',
 
 
 
