@@ -26,7 +26,6 @@ monogatari.script ({
 	           'Dialog': 't: Querido Aprendiz, constituida su empresa y teniendo en cuenta sus conocimientos previos,', 
 		             't: seleccione el paso a seguir',
 	         
-	         
 	           'p1': {
 	             'Text': 'Definir marco conceptual aplicable',
 	             'Do': 'jump Definirmarcoconceptualaplicable'
@@ -313,6 +312,7 @@ monogatari.script ({
 	    },   
 		 'end',
 	           ],
+	
 	  
 	});
 	
