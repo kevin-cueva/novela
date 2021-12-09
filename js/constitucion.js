@@ -674,6 +674,7 @@ monogatari.script ({
 
 //Paso 4
       'clasificaciondetuempresa': [
+	        'show background decisiones at left with fadeIn',
 		't: Querido empresario (Aprendiz), usted debe clasificar su empresa,',
 		't: de acuerdo con las diferentes opciones estudiadas de clasificación',
 		't: ejemplo, si su empresa es una distribuidora de helados,',
